@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- login.html -->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--[if lte IE9]>
+      <script src="../ie/lt-ie-9.min.js"></script>
+  <![endif]-->
+  <!-- fontAwsome and nanumGothicCodingFont -->
+  <link rel="stylesheet" href="../fontAwesome/css/fontawesome.css">
+  <link rel="stylesheet" href="../fonts/transfonterNanum/stylesheet.css">
+  <!-- css Reset and globalClass -->
+  <link rel="stylesheet" href="../css/base/reset.css">
+  <link rel="stylesheet" href="../css/base/common.css">
+  <!-- use css -->
+  <!-- <link rel="stylesheet" href="../css/import/importfile_01.css"> -->
+  <!-- <link rel="stylesheet" href="../css/login.css"> -->
+  <!-- faviconFile -->
+  <!-- <link rel="alle-tioch-icon" href="../favicon.png"> -->
+  <!-- <link rel="shortcut icon" href="../fasicon.png" type="image/x-icon"> -->
+  <title>Ashley</title>
+</head>
+<body>
+  <div id="wrap">
+    <article id="loginBox">
+      <div id="loginInputBox">
+        <h2>로그인</h2>
+        <p>애슐리 홈페이지에 오신것을 환영합니다.</p>
+        <form class="login_area">
+          <fieldset class="input_box">
+            <legend class="hidden">아이디 및 비밀번호 입력</legend>
+            <input id="idArea" name="idArea" type="text" value="" placeholder="아이디" required />
+            <label for="idArea">
+              <span class="hidden">아이디를 입력하세요.</span>
+            </label>
+            <input id="pwArea" name="pwArea" type="password" value="" placeholder="비밀번호" required/>
+            <label for="pwArea">
+              <span class="hidden">비밀번호를 입력하세요.</span>
+            </label>
+            <div>
+              <button type="button">로그인</button>
+            </div>
+          </fieldset>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fas fa-unlock-alt"></i>
+                아이디/비밀번호 찾기
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-edit"></i>
+                회원가입
+              </a>
+            </li>
+          </ul>
+        </form>
+        <div><a href="#"></a></div>
+      </div>
+    </article>
+  </div>
+  <!-- script -->
+  <script src="../js/base/jquery.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+  <!-- use script -->
+  <!-- <script src="../js/base/respond.js"></script> -->
+  <!-- <script src="../js/base/template.js"></script> -->
+  <script src="../js/src/base.js"></script>
+  <!-- <script src="../js/src/login.js"></script> -->
+</body>
+</html>
