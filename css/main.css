@@ -124,7 +124,7 @@
   #footBox > div.info_box > address { width: 21.863rem; margin-top: 20px; margin-bottom: 20px; height: auto; }
   #footBox > div.info_box > address > p { color: #ffffff; font-size: 0.75rem; }
   #footBox > div.foot_ulb { width: 100%; height: 1.875rem; }
-  #footBox > div.foot_ulb > a { width: 1.625rem; height: 100%; float: left; margin-right: 63px; }
+  #footBox > div.foot_ulb > a { width: 1.625rem; height: 100%; float: left; margin-right: 52px; }
   #footBox > div.foot_ulb > a:nth-of-type(2) { background-image: url("../img/icon/blogw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #footBox > div.foot_ulb > a:nth-of-type(3) { margin: 0; }
   #footBox > div.foot_ulb > a > i { width: 100%; height: 100%; font-size: 1.875rem; color: #ffffff; }
@@ -136,5 +136,5 @@
   #footBox > div.foot_ulb > dl > dd > ul { width: 100%; height: auto; background-color: inherit; padding: 10px; box-sizing: border-box; }
   #footBox > div.foot_ulb > dl > dd > ul > li { width: 100%; height: 1.875rem; background-color: transparent; text-align: center; }
   #footBox > div.foot_ulb > dl > dd > ul > li:hover { background-color: #ffffff; color: #333333; }
-  #footBox > div.foot_ulb > dl > dd > ul > li > a { display: block; width: 100%; height: 100%; line-height: 35px; color: #ffffff; }
+  #footBox > div.foot_ulb > dl > dd > ul > li > a { display: block; width: 100%; height: 100%; line-height: 35px; color: #ffffff; font-size: 0.75rem; }
   #footBox > div.foot_ulb > dl > dd > ul > li > a:hover, #footBox > div.foot_ulb > dl > dd > ul > li > a:focus { color: #333333; } }
