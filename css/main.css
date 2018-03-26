@@ -5,7 +5,7 @@
   #headUlb { width: 100%; height: auto; }
   #headUlb .members { width: auto; height: 2rem; float: left; }
   #headUlb .members > li { width: 5.625rem; height: 2rem; float: left; color: #152315; margin-right: 9px; }
-  #headUlb .members > li:last-child { width: 6.5rem; margin: 0; }
+  #headUlb .members > li:last-child { width: 6.3rem; margin: 0; }
   #headUlb .members > li > a { display: block; width: 100%; height: 100%; color: inherit; line-height: 2rem; }
   #headUlb .members > li > a:hover, #headUlb .members > li > a:focus { color: #476401; }
   #headUlb .members > li > a:hover > span.login, #headUlb .members > li > a:focus > span.login { background-image: url("../img/icon/a_login.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
