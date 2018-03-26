@@ -4,7 +4,7 @@
 @media screen and (max-width: 480px) { #headBox { width: 100%; height: auto; padding: 1rem; box-sizing: border-box; }
   #headUlb { width: 100%; height: auto; }
   #headUlb .members { width: auto; height: 2rem; float: left; }
-  #headUlb .members > li { width: 6.2rem; height: 2rem; float: left; color: #152315; margin-right: 9px; }
+  #headUlb .members > li { width: 6.7rem; height: 2rem; float: left; color: #152315; margin-right: 9px; }
   #headUlb .members > li:last-child { margin: 0; }
   #headUlb .members > li > a { display: block; width: 100%; height: 100%; color: inherit; line-height: 2rem; }
   #headUlb .members > li > a:hover, #headUlb .members > li > a:focus { color: #476401; }
