@@ -6,14 +6,21 @@
   #headUlb .members { width: auto; height: 2rem; float: left; }
   #headUlb .members > li { width: 5.625rem; height: 2rem; float: left; color: #152315; margin-right: 9px; }
   #headUlb .members > li:last-child { margin: 0; }
-  #headUlb .members > li > a { display: block; width: 100%; height: 100%; color: inherit; }
+  #headUlb .members > li > a { display: block; width: 100%; height: 100%; color: inherit; line-height: 2rem; }
   #headUlb .members > li > a:hover, #headUlb .members > li > a:focus { color: #476401; }
-  #headUlb .members > li > a > i { margin-right: 10px; font-size: 1.5rem; }
+  #headUlb .members > li > a:hover > span.login, #headUlb .members > li > a:focus > span.login { background-image: url("../img/icon/a_login.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .members > li > a:hover > span.join, #headUlb .members > li > a:focus > span.join { background-image: url("../img/icon/a_join.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .members > li > a > span { display: block; margin-right: 10px; }
+  #headUlb .members > li > a > span.login { width: 1.25rem; height: 1.25rem; margin-top: 0.25rem; background-image: url("../img/icon/login.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
+  #headUlb .members > li > a > span.join { width: 1.5rem; height: 1.5rem; background-image: url("../img/icon/join.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
   #headUlb .head_sns { width: auto; height: auto; float: right; }
   #headUlb .head_sns > li { width: 1.313rem; height: 1.5rem; float: left; margin-right: 28px; }
+  #headUlb .head_sns > li:nth-of-type(1) > a { background-image: url("../img/icon/fb.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .head_sns > li:nth-of-type(1) > a:hover, #headUlb .head_sns > li:nth-of-type(1) > a:focus { background-image: url("../img/icon/hoverfb.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #headUlb .head_sns > li:nth-of-type(2) > a { background-image: url("../img/icon/blog.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #headUlb .head_sns > li:nth-of-type(2) > a:hover, #headUlb .head_sns > li:nth-of-type(2) > a:focus { background-image: url("../img/icon/hoverblog.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
-  #headUlb .head_sns > li:last-child { margin: 0; }
+  #headUlb .head_sns > li:nth-of-type(3) > a { margin: 0; background-image: url("../img/icon/insta.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .head_sns > li:nth-of-type(3) > a:hover, #headUlb .head_sns > li:nth-of-type(3) > a:focus { background-image: url("../img/icon/hoverinsta.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #headUlb .head_sns > li > a { display: block; width: 100%; height: 100%; color: #152315; }
   #headUlb .head_sns > li > a:hover, #headUlb .head_sns > li > a:focus { color: #476401; }
   #headUlb .head_sns > li > a > i { font-size: 1.5rem; color: inherit; }
@@ -59,7 +66,9 @@
   #chioceBox > ul.arrow_btn > li { width: 3.75rem; height: 3.75rem; }
   #chioceBox > ul.arrow_btn > li:nth-child(1) { float: left; }
   #chioceBox > ul.arrow_btn > li:nth-child(2) { float: right; }
-  #chioceBox > ul.arrow_btn > li > i { width: 100%; height: 100%; text-align: center; line-height: 3.75rem; font-size: 1.5rem; }
+  #chioceBox > ul.arrow_btn > li > div { width: 1.125rem; height: 1.5rem; margin: 0 auto; margin-top: 1rem; }
+  #chioceBox > ul.arrow_btn > li > div.new_left { background-image: url("../img/icon/arrow_left.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #chioceBox > ul.arrow_btn > li > div.new_right { background-image: url("../img/icon/arrow_right.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #dailyBox { width: 100%; height: auto; padding-top: 3.125rem; padding-bottom: 3.125rem; box-sizing: border-box; position: relative; }
   #dailyBox > h2 { width: 7.89rem; height: 1.313rem; color: #333333; font-size: 1.125rem; font-weight: bold; text-transform: uppercase; margin: 0 auto; }
   #dailyBox > h2 > span.deco_left { display: block; width: 1rem; height: 0.938rem; background-image: url("../img/main/textDeco/black/textDecoB_left.png"); background-repeat: no-repeat; background-position: center; background-size: contain; margin-right: 3px; float: left; }
@@ -81,14 +90,16 @@
   #dailyBox > ul.arrow_btn > li { width: 3.75rem; height: 3.75rem; }
   #dailyBox > ul.arrow_btn > li:nth-child(1) { float: left; }
   #dailyBox > ul.arrow_btn > li:nth-child(2) { float: right; }
-  #dailyBox > ul.arrow_btn > li > i { width: 100%; height: 100%; text-align: center; line-height: 3.75rem; font-size: 1.5rem; }
+  #dailyBox > ul.arrow_btn > li > div { width: 1.125rem; height: 1.5rem; margin: 0 auto; margin-top: 1rem; }
+  #dailyBox > ul.arrow_btn > li > div.sns_left { background-image: url("../img/icon/arrow_left.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #dailyBox > ul.arrow_btn > li > div.sns_right { background-image: url("../img/icon/arrow_right.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #contentBox { width: 100%; height: auto; position: relative; }
   #storeBox { width: 100%; height: 20.063rem; background-image: url("../img/main/contetnBox/ashley_store.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; padding: 3.5625rem 1rem; box-sizing: border-box; position: relative; }
   #storeBox > span.backcolor { display: block; width: 100%; height: 100%; background-color: rgba(51, 51, 51, 0.7); position: absolute; top: 0; left: 0; padding: 3.5625rem 1rem; box-sizing: border-box; }
   #storeBox > span.backcolor > h2 { width: 6.25rem; height: 1.313rem; color: #ffffff; font-size: 1.125rem; font-weight: bold; text-transform: uppercase; margin: 0 auto; }
   #storeBox > span.backcolor > h2 > span.deco_wleft { display: block; width: 1rem; height: 0.938rem; background-image: url("../img/main/textDeco/white/textDeco_left.png"); background-repeat: no-repeat; background-position: center; background-size: contain; margin-right: 3px; float: left; }
   #storeBox > span.backcolor > h2 > span.deco_wright { display: block; width: 1rem; height: 0.938rem; background-image: url("../img/main/textDeco/white/textDeco_right.png"); background-repeat: no-repeat; background-position: center; background-size: contain; margin-left: 3px; float: right; }
-  #storeBox > span.backcolor > p { width: 5.25rem; height: 1.813rem; color: #ffffff; font-size: 1.5rem; margin: 0 auto; margin-top: 1.25rem; margin-bottom: 2.5rem; }
+  #storeBox > span.backcolor > p { width: 5.5rem; text-align: center; height: 1.813rem; color: #ffffff; font-size: 1.5rem; margin: 0 auto; margin-top: 1.25rem; margin-bottom: 2.5rem; }
   #storeBox > span.backcolor > form.head_search_box { width: 20.313rem; height: 2.938rem; margin: 0 auto; }
   #storeBox > span.backcolor > form.head_search_box > fieldset.search_store { width: 100%; height: 100%; }
   div.more_btn { width: 9.063rem; height: 1.875rem; margin: 0 auto; margin-top: 20px; background-color: #555555; }
@@ -97,8 +108,8 @@
   #searchArea { width: 100%; height: 100%; }
   label[for="searchArea"] { display: block; width: 100%; height: 100%; position: relative; top: -2.938rem; }
   label[for="searchArea"] > button { width: 2.938rem; height: 100%; position: absolute; right: 0; top: 0; background-color: inherit; }
-  label[for="searchArea"] > button:hover, label[for="searchArea"] > button:focus { color: #476401; }
-  label[for="searchArea"] > button > i { font-size: 1.25rem; }
+  label[for="searchArea"] > button:hover > span.search_icon, label[for="searchArea"] > button:focus > span.search_icon { background-image: url("../img/icon/a_search.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  label[for="searchArea"] > button > span.search_icon { display: block; width: 1.25rem; height: 1.313rem; margin-left: 0.9rem; background-image: url("../img/icon/search.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #eventBox { width: 100%; height: 20.063rem; position: relative; background-image: url("../img/main/contetnBox/ashley_event.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
   #eventBox > span.backcolor2 { display: block; width: 100%; height: 100%; background-color: rgba(20, 34, 20, 0.7); position: absolute; top: 0; left: 0; padding: 3.5625rem 1rem; box-sizing: border-box; }
   #eventBox > span.backcolor2 > h2 { width: 10.48rem; height: 1.313rem; color: #ffffff; font-size: 1.125rem; font-weight: bold; text-transform: uppercase; margin: 0 auto; margin-bottom: 9.375rem; }
@@ -125,13 +136,14 @@
   #footBox > div.info_box > address > p { color: #ffffff; font-size: 0.75rem; }
   #footBox > div.foot_ulb { width: 100%; height: 1.875rem; }
   #footBox > div.foot_ulb > a { width: 1.625rem; height: 100%; float: left; margin-right: 52px; }
+  #footBox > div.foot_ulb > a:nth-of-type(1) { background-image: url("../img/icon/fbw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #footBox > div.foot_ulb > a:nth-of-type(2) { background-image: url("../img/icon/blogw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
-  #footBox > div.foot_ulb > a:nth-of-type(3) { margin: 0; }
+  #footBox > div.foot_ulb > a:nth-of-type(3) { background-image: url("../img/icon/instaw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; margin: 0; }
   #footBox > div.foot_ulb > a > i { width: 100%; height: 100%; font-size: 1.875rem; color: #ffffff; }
   #footBox > div.foot_ulb > dl { width: 9.438rem; height: 1.875rem; background-color: #ffffff; float: right; }
   #footBox > div.foot_ulb > dl:hover > dd { display: block; }
   #footBox > div.foot_ulb > dl > dt { width: 100%; height: 100%; padding: 10px; box-sizing: border-box; font-size: 0.75rem; line-height: 0.8rem; }
-  #footBox > div.foot_ulb > dl > dt > i { float: right; line-height: 0.8rem; }
+  #footBox > div.foot_ulb > dl > dt > span.arrow_down { display: block; width: 0.75rem; height: 0.813rem; background-image: url("../img/icon/arrow_down.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: right; line-height: 0.813rem; }
   #footBox > div.foot_ulb > dl > dd { width: 9.438rem; height: auto; background-color: rgba(51, 51, 51, 0.5); display: none; }
   #footBox > div.foot_ulb > dl > dd > ul { width: 100%; height: auto; background-color: inherit; padding: 10px; box-sizing: border-box; }
   #footBox > div.foot_ulb > dl > dd > ul > li { width: 100%; height: 1.875rem; background-color: transparent; text-align: center; }
