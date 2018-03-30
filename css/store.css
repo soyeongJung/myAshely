@@ -76,7 +76,10 @@
   #gnbBox > ul > li > ul.gnb_nav > li > ul > li > ul > li > a { display: block; width: 100%; height: 100%; color: #476401; font-weight: bold; padding: 0 1rem; box-sizing: border-box; }
   #gnbBox > ul > li > ul.gnb_nav > li > ul > li > ul > li > a > span.gnbS_down { display: block; float: right; width: 0.813rem; height: 1.25rem; margin-top: 2rem; background-image: url("../img/icon/gnbG_down.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; } }
 
-@media screen and (max-width: 480px) { .viewPage { display: none; } }
+@media screen and (max-width: 480px) { .viewPage { display: none; }
+  #storeBox { width: 100%; height: auto; margin: 60px auto; }
+  #storeBox > form { width: 26.875rem; height: 100%; }
+  #storeBox > form > h2 { width: 11.5rem; height: 1.5rem; text-align: center; text-transform: uppercase; font-size: 1.25rem; margin: 0 auto; margin-bottom: 57px; } }
 
 #topBox { position: fixed; bottom: 128px; bottom: 8rem; right: 0; width: 60px; width: 3.75rem; height: 60px; height: 3.75rem; border-radius: 0.625rem; background-color: #476401; }
 

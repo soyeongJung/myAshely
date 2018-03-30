@@ -37,6 +37,9 @@
     _this.siblings().children('a').css({'color':'#aaa'});
     var bIndex = _this.index();
     var mt = gnbliH * (gnbliLength - bIndex);
+
+    shows.siblings().hide();
+    
     var showH = showbUl.outerHeight();
 
     showm.siblings().hide();
@@ -44,7 +47,6 @@
     showmUl.removeAttr('style');
     gnbN.removeAttr('style');
 
-    shows.siblings().hide();
    
     if(brother=='none'){
           _this.siblings().show();
@@ -77,13 +79,14 @@ console.log(showmLength);
     _this.siblings().children('a').css({'color':'#aaa'});
     var bIndex = _this.index();
     var mt = showmH * (showmLength - bIndex);
+
+    shows.siblings().hide();
+
     var showH = showmUl.outerHeight();
 
     showb.siblings().hide();
     gnbN.removeAttr('style');
     showbUl.removeAttr('style');
-
-    shows.siblings().hide();
 
     if(brother=='none'){
           _this.siblings().show();
@@ -107,7 +110,7 @@ console.log(showmLength);
   var showsLength = showsList.parent().children().length;
 
   var shows = $('.shows_list');
-  // var showsUl = shows.siblings('li');
+  var showsLi = shows.children('li');
 
 
   shows.children('a').on('click',function() {
@@ -115,25 +118,21 @@ console.log(showmLength);
     // console.log(_this);
     var brother = _this.siblings().css('display');
     _this.siblings().children('a').css({'color':'#aaa'});
-    // var bIndex = _this.index();
-    // var mt = showsH * (showsLength - bIndex);
-    // var showH = shows.siblings().outerHeight();
-    // var showH = _this.siblings().outerHeight();
 
     showb.siblings().hide();
-    gnbN.removeAttr('style');
     showbUl.removeAttr('style');
 
     showm.siblings().hide();
     showm.parent().removeAttr('style');
     showmUl.removeAttr('style');
     gnbN.removeAttr('style');
-   
+
     if(brother=='none'){
       _this.siblings().show();
           
     }else{
-      gnbN.removeAttr('style');
+      // gnbN.removeAttr('style');
+      showsLi.removeAttr('style');
       _this.siblings().hide();
     } 
 
