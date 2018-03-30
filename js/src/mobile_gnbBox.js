@@ -110,7 +110,7 @@ console.log(showmLength);
   // var showsUl = shows.siblings('li');
 
 
-  shows.children('a').on('focus',function() {
+  shows.children('a').on('click',function() {
     var _this = $(this).parent('li');
     // console.log(_this);
     var brother = _this.siblings().css('display');
@@ -133,6 +133,7 @@ console.log(showmLength);
       _this.siblings().show();
           
     }else{
+      gnbN.removeAttr('style');
       _this.siblings().hide();
     } 
 

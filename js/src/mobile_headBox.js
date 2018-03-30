@@ -48,6 +48,41 @@
     //   $(this).children('span').addClass('minus');
     // }
 
+    var menuBoxH = $('#menuBox').height();
+    var h1H = $('h1').parent().height();
+    var formH = $('.head_search_box').outerHeight(true);
+
+    var leftHeight = menuBoxH - h1H - formH
+
+    var menuDl = $('.menu_box');
+
+    menuDl.css({height:leftHeight});
+
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 })(this.jQuery);
