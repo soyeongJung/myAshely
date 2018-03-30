@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="../css/base/common.css">
   <!-- use css -->
   <!-- <link rel="stylesheet" href="../css/import/importfile_01.css"> -->
-  <!-- <link rel="stylesheet" href="../css/login.css"> -->
+  <link rel="stylesheet" href="../css/login.css">
   <!-- faviconFile -->
   <!-- <link rel="alle-tioch-icon" href="../favicon.png"> -->
   <!-- <link rel="shortcut icon" href="../fasicon.png" type="image/x-icon"> -->
@@ -26,33 +26,33 @@
   <div id="wrap">
     <article id="loginBox">
       <div id="loginInputBox">
-        <h2>로그인</h2>
+        <h2><span class="deco_left"></span>로그인<span class="deco_right"></span></h2>
         <p>애슐리 홈페이지에 오신것을 환영합니다.</p>
         <form class="login_area">
           <fieldset class="input_box">
             <legend class="hidden">아이디 및 비밀번호 입력</legend>
             <input id="idArea" name="idArea" type="text" value="" placeholder="아이디" required />
-            <label for="idArea">
+            <label for="idArea" class="hidden">
               <span class="hidden">아이디를 입력하세요.</span>
             </label>
             <input id="pwArea" name="pwArea" type="password" value="" placeholder="비밀번호" required/>
-            <label for="pwArea">
+            <label for="pwArea" class="hidden">
               <span class="hidden">비밀번호를 입력하세요.</span>
             </label>
             <div>
               <button type="button">로그인</button>
             </div>
           </fieldset>
-          <ul>
+          <ul class="clearfix">
             <li>
               <a href="#">
-                <i class="fas fa-unlock-alt"></i>
+                <span class="find_icon"></span>
                 아이디/비밀번호 찾기
               </a>
             </li>
             <li>
-              <a href="#">
-                <i class="far fa-edit"></i>
+              <a href="./join.html">
+                <span class="join_icon"></span>
                 회원가입
               </a>
             </li>

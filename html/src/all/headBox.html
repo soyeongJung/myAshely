@@ -3,9 +3,9 @@
   <div id="headUlb" class="clearfix">
     <ul class="members">
       <li>
-        <a href="#"><span class="login"></span>로그인</a>
+        <a href="login.html"><span class="login"></span>로그인</a>
       </li>
-      <li><a href="#"><span class="join"></span>회원가입</a></li>
+      <li><a href="join.html"><span class="join"></span>회원가입</a></li>
     </ul>
     <ul class="head_sns">
       <li><a href="#"><span>facebook</span></a></li>
@@ -15,7 +15,7 @@
   </div>
   <div id="menuBox" class="clearfix">
     <div class="clearfix">
-      <h1><a href="./main.html"><span class="hidden">애슐리 로고클릭 시 메인 페이지오 이동합니다.</span></a></h1>
+      <h1><a href="./main.html"><span class="hidden">애슐리 로고클릭 시 메인 페이지로 이동합니다.</span></a></h1>
       <div class="open_btn">
         <button type="button">
           <span></span>
@@ -28,29 +28,30 @@
       <form class="head_search_box">
         <fieldset class="search_area">
           <legend class="hidden">통합검색란</legend>
-          <input id="searchText" name="searchText" type="text" value="" placeholder="search" />
+          <input id="searchText" name="searchText" type="text" value="" placeholder=" 매장명을 입력하세요." />
           <label for="searchText">
             <span class="hidden">메뉴 및 질문을 검색 하실 수 있습니다.</span>
-            <i class="fas fa-search"></i>
+            <i class="locate_search"></i>
           </label>
         </fieldset>
       </form>
       <dl class="menu_box">
-        <dt>menu</dt>
-        <dd>
-          <a href="#">classic</a>
+        <dt>menu<span class="plus"></span></dt>
+        <dd class="clearfix">
+          <a href="./menuList.html">classic</a>
           <a href="#">w</a>
           <a href="#">alab</a>
           <a href="#">queens</a>
           <a href="#">83grill by ashley</a>
         </dd>
-        <dt>event &amp; talk</dt>
-        <dd><a href="#">공지사항</a></dd>
-        <dt>store</dt>
-        <dd><a href="#">매장안내</a></dd>
-        <dt>customer</dt>
-        <dd><a href="#">자주하는 질문</a></dd>
+        <dt>event &amp; talk<span class="plus"></span></dt>
+        <dd class="clearfix"><a href="./eventTalk.html">공지사항</a></dd>
+        <dt>store<span class="plus"></span></dt>
+        <dd class="clearfix"><a href="#">매장안내</a></dd>
+        <dt>customer<span class="plus"></span></dt>
+        <dd class="clearfix"><a href="#">자주하는 질문</a></dd>
       </dl>
     </div>
   </div>
 </header>
+<script src="../js/src/mobile_headBox.js"></script>

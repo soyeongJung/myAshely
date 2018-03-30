@@ -12,6 +12,142 @@
     tel.append('<option value="' + t + '">' + t + '</option>');
   }
 
+
+  var agreeAllBox = $('#agreeAllBox');
+  var agreeAllLabel = $('label[for="agreeAllBox"]');
+  var useCheckBox = $('#useCheckBox');
+  var useCheckLabel = $('label[for="useCheckBox"]');
+  var personCheckBox = $('#personCheckBox');
+  var personCheckLable = $('label[for="personCheckBox"]');
+
+  agreeAllBox.on('change', function(e) {
+    // e.preventDefault();
+
+    var myck = $(this).attr('checked');
+
+    if(!myck){
+      $(this).attr('checked',true);
+      useCheckBox.attr("checked", true);
+      personCheckBox.attr("checked", true);
+      agreeAllLabel.addClass('checked');
+      useCheckLabel.addClass('checked');
+      personCheckLable.addClass('checked');
+    }else{
+      $(this).attr('checked',false);
+      useCheckBox.attr("checked", false);
+      personCheckBox.attr("checked", false);
+      agreeAllLabel.removeClass('checked');
+      useCheckLabel.removeClass('checked');
+      personCheckLable.removeClass('checked');
+    }
+  });
+
+  // var allcb = useCheckBox.attr('checked');
+  var myCheckOn = function(baseClick){
+    baseClick.on('change', function(e){
+      agreeAllBox.attr("checked", false);
+      agreeAllLabel.removeClass('checked');
+      var _thisck = $(this).attr('checked');
+      // console.log(_thisck);
+      if(_thisck){
+        baseClick.next().removeClass('checked');
+        baseClick.attr('checked',false);
+      }else{
+        baseClick.next().addClass('checked');
+        baseClick.attr('checked',true);
+      }
+
+      checkAll();
+
+    });
+  };
+
+  myCheckOn(useCheckBox);
+  myCheckOn(personCheckBox);
+
+  var checkAll = function(){
+
+    var useChecked = useCheckBox.attr('checked');
+    var personChecked = personCheckBox.attr('checked');
+    
+
+    console.log(useChecked, personChecked);
+
+    if(useChecked && personChecked){
+      agreeAllBox.attr("checked", true);
+      agreeAllLabel.addClass('checked');
+
+    }else{
+      agreeAllBox.attr("checked", false);
+      agreeAllLabel.removeClass('checked');
+      
+    }
+  };
+  // checkAll(useChecked);
+  // checkAll(personChecked);
+
+    var nextBtn = $('.conf');
+  nextBtn.on('click', function(e){
+    var useChecked = useCheckBox.attr('checked');
+    var personChecked = personCheckBox.attr('checked');
+    console.log(useChecked, personChecked);
+
+    if(useChecked && personChecked){
+     location.replace('http://naver.com');
+    }else{
+      alert("애슐리 이용약관 및 개인정보 수집에 대해 모두 동의 후 클릭 바랍니다.");
+    }
+  });
+
+// $('#middleTel').on('keydown',function() {
+//   // $(this).css({background:'#fa0'});
+//   var test = parseInt($(this).val());
+//   var testText = $(this).text();
+//   var inputL = test.length;
+//   var max = parseInt($(this).attr('maxlength'));
+
+//   var t = test.constructor.toString().slice(9,-20);
+  
+//  if(test !== NaN){console.log('!!!!!!');}
+//   // console.log(test);
+
+//   if(inputL >= max){;
+//     var test1 = test.slice(0,max);
+//     test = parseInt(test1);
+//     // $(this).text(test1);
+//   }
+//    $(this).text(test1);
+// });
+
+
+
 })(this.jQuery);
+
+  //tel_box maxlength 체크
+  function maxLengthCheck(object){
+   if (object.value.length > object.maxLength){
+    object.value = object.value.slice(0, object.maxLength);
+   }    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

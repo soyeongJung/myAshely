@@ -2,129 +2,255 @@
 <nav id="gnbBox">
   <h2 class="hidden">Global navigation bar</h2>
   <ul>
-    <li><a href="./main.html">home &#47;</a> </li>
+    <li><a href="./main.html">home &#47;</a></li>
     <li>
-      <ul>
-        <li>
-          <a href="#">menu
-            <i class="fas fa-chevron-down"></i>
+      <ul class="gnb_nav">
+        <li class="showb_list">
+          <a href="./menuList.html">menu
+            <span class="gnb_down"></span>
           </a>
           <ul>
-            <li>
-              <a href="#">classic
-                <i class="fas fa-chevron-down"></i>
+            <li class="showm_list">
+              <a href="./menuList.html">classic
+                <span class="gnb_down"></span>
               </a>
               <ul>
-                <li><a href="#">season special
-                  <i class="fas fa-chevron-down"></i>
+                <li class="shows_list"><a href="./menuList.html">season special
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">hot
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">cold
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">vietnam spring roll
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">dessert
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">take out
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">drink &amp; wine
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
               </ul>
             </li>
             <li>
               <a href="#">w
-                <i class="fas fa-chevron-down"></i>
+                <span class="gnb_down"></span>
               </a>
               <ul>
                 <li><a href="#">season special
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">pizza
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">grill
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">hot
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">cold
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">dessert
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">main menu
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">take out
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
                 <li><a href="#">drink &amp; wine
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
               </ul>
             </li>
             <li>
               <a href="#">queen
-                <i class="fas fa-chevron-down"></i>
+                <span class="gnb_down"></span>
               </a>
               <ul>
                 <li><a href="#">season special
-                  <i class="fas fa-chevron-down"></i>
+                  <span class="gnbS_down"></span>
                 </a></li>
               </ul>
             </li>
             <li>
               <a href="#">alab
-                <i class="fas fa-chevron-down"></i>
+                <span class="gnb_down"></span>
               </a>
             </li>
             <li>
               <a href="#">83grill
-                <i class="fas fa-chevron-down"></i>
+                <span class="gnb_down"></span>
               </a>
             </li>
           </ul>
         </li>
         <li>
-          <a href="#">event &amp; talk
-            <i class="fas fa-chevron-down"></i>
+          <a href="./eventTalk.html">event &amp; talk
+            <span class="gnb_down"></span>
           </a>
           <ul>
-            <li><a href="#">공지사항
-              <i class="fas fa-chevron-down"></i>
+            <li><a href="./eventTalk.html" class="last_list">공지사항
+              <span class="gnbS_down"></span>
             </a></li>
           </ul>
         </li>
         <li>
           <a href="#">store
-            <i class="fas fa-chevron-down"></i>
+            <span class="gnb_down"></span>
           </a>
           <ul>
-            <li><a href="#">매장안내
-              <i class="fas fa-chevron-down"></i>
+            <li><a href="#" class="last_list">매장안내
+              <span class="gnbS_down"></span>
             </a></li>
           </ul>
         </li>
         <li>
           <a href="#">customer
-            <i class="fas fa-chevron-down"></i>
+            <span class="gnb_down"></span>
           </a>
           <ul>
-            <li><a href="#">자주하는 질문
-              <i class="fas fa-chevron-down"></i>
-            </a></li>
+            <li>
+              <a href="#" class="last_list">자주하는 질문
+                <span class="gnbS_down"></span>
+              </a>
+            </li>
           </ul>
         </li>
       </ul>
     </li>
   </ul>
 </nav>
+
+<!-- <script>
+    (function($) {
+
+      var vt = $('.viewPage').text();
+      var arr = vt.split('.');
+      console.log(arr);
+
+      var gnbN = $('.gnb_nav');
+      gnbN.children('li').removeClass('showb_list');
+      gnbN.children('li').children('ul').children('li').removeClass('showm_list');
+      gnbN.children('li').children('ul').children('li').children('ul').children('li').removeClass('shows_list');
+
+      gnbN.children('li').eq(arr[0]).addClass('showb_list');
+      var showbList = gnbN.children('.showb_list');
+      showbList.children('ul').children('li').eq(arr[1]).addClass('showm_list');
+      var showmList = showbList.children('ul').children('.showm_list');
+      showmList.children('ul').children('li').eq(arr[2]).addClass('shows_list');
+      var showsList = showmList.children('ul').children('.shows_list');
+
+      showbList.prependTo(gnbN);
+
+
+      var gnbliH = showbList.children('a').outerHeight()+2;
+      var gnbliLength = gnbN.children().length;
+
+
+      var showb = $('.showb_list');
+      var showbUl = showb.children('ul');
+
+      showb.children('a').on('click',function() {
+        var _this = $(this).parent();
+        var brother = _this.siblings().css('display');
+        var bIndex = _this.index();
+        var mt = gnbliH * (gnbliLength - bIndex);
+        var showH = showbUl.outerHeight();
+       
+        if(brother=='none'){
+              _this.siblings().show();
+              _this.parent().css({position:'relative',zIndex:2000});
+        
+              showbUl.css({position:'absolute',left:0});
+              _this.children('ul').css({top:mt});
+        
+              gnbN.css({height:mt+showH});
+        }else{
+          _this.siblings().hide();
+          // _this.parent().removeAttr('style');
+          gnbN.removeAttr('style');
+          showbUl.removeAttr('style');
+        } 
+
+      }); // showb.on
+
+
+      var showmH = showmList.children('a').outerHeight()+2;
+      var showmLength = showmList.parent().children().length;
+    console.log(showmLength);
+
+      var showm = $('.showm_list');
+      var showmUl = showm.children('ul');
+
+      showm.children('a').on('click',function() {
+        var _this = $(this).parent();
+        var brother = _this.siblings().css('display');
+        var bIndex = _this.index();
+        var mt = showmH * (showmLength - bIndex);
+        var showH = showmUl.outerHeight();
+       
+        if(brother=='none'){
+              _this.siblings().show();
+              _this.parent().css({position:'relative',zIndex:2000});
+        
+              showmUl.css({position:'absolute',left:0});
+              _this.children('ul').css({top:mt});
+        
+              gnbN.css({height:mt+showH+showmH});
+        }else{
+          _this.siblings().hide();
+          _this.parent().removeAttr('style');
+          showmUl.removeAttr('style');
+          gnbN.removeAttr('style');
+        } 
+
+      }); // showm.on
+
+      
+      var showsH = showsList.children('a').outerHeight()+2;
+      var showsLength = showsList.parent().children().length;
+
+      var shows = $('.shows_list');
+      var showsUl = shows.siblings('li');
+
+      shows.on('click',['a'],function() {
+        var _this = $(this);
+        var brother = _this.siblings().css('display');
+        var bIndex = _this.index();
+        var mt = showsH * (showsLength - bIndex);
+        var showH = shows.siblings().outerHeight();
+        // var showH = _this.siblings().outerHeight();
+       
+        if(brother=='none'){
+              _this.siblings().show();
+              
+        }else{
+          _this.siblings().hide();
+        } 
+
+      }); // shows.on
+
+    })(jQuery);
+  </script> -->
+<script src="../js/src/mobile_gnbBox.js"></script>
+
+
+
+
+
+
+
+
+
+
+
