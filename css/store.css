@@ -105,11 +105,11 @@
   #storeBox > form > fieldset.type { width: 100%; height: auto; }
   #storeBox > form > fieldset.type > h2 { width: 5rem; height: 1.5rem; text-align: center; font-size: 1.25rem; margin: 0 auto; margin-bottom: 1.25rem; }
   #storeBox > form > fieldset.type > div { max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; float: left; border: 1px solid #9B9B9B; }
-  #storeBox > form > fieldset.type > div:nth-of-type(1) { margin-right: 6.25vw; margin-bottom: 1.875rem; }
+  #storeBox > form > fieldset.type > div:nth-of-type(1) { margin-right: 3.5vw; margin-bottom: 1.875rem; }
   #storeBox > form > fieldset.type > div:nth-of-type(2) { margin-bottom: 1.875rem; }
-  #storeBox > form > fieldset.type > div:nth-of-type(3) { margin-right: 6.25vw; margin-bottom: 1.875rem; }
+  #storeBox > form > fieldset.type > div:nth-of-type(3) { margin-right: 3.5vw; margin-bottom: 1.875rem; }
   #storeBox > form > fieldset.type > div:nth-of-type(4) { margin-bottom: 1.875rem; }
-  #storeBox > form > fieldset.type > div:nth-of-type(5) { margin-right: 6.25vw; margin-bottom: 1.875rem; }
+  #storeBox > form > fieldset.type > div:nth-of-type(5) { margin-right: 3.5vw; margin-bottom: 1.875rem; }
   #storeBox > form > fieldset.type > div:nth-of-type(6) { margin-bottom: 3.125rem; }
   #storeBox > form > fieldset.type > div > label[for="typeClassic"] { display: block; width: 100%; height: 100%; text-transform: uppercase; text-align: center; line-height: 2.5rem; font-weight: bold; }
   #storeBox > form > fieldset.type > div > label[for="typeClassic"].checked { color: #ffffff; background-color: #476401; }
@@ -123,26 +123,26 @@
   #storeBox > form > fieldset.type > div > label[for="typeNodle"].checked { color: #ffffff; background-color: #476401; }
   #storeBox > form > fieldset.type > div > label[for="type83Grill"] { display: block; width: 100%; height: 100%; text-transform: uppercase; text-align: center; line-height: 2.5rem; font-weight: bold; }
   #storeBox > form > fieldset.type > div > label[for="type83Grill"].checked { color: #ffffff; background-color: #476401; }
-  #storeBox > form #typeClassic { position: absolute; z-index: -1; opacity: 0; width: 12.5rem; height: 2.5rem; }
+  #storeBox > form #typeClassic { position: absolute; z-index: -1; opacity: 0; max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; }
   #storeBox > form #typeClassic:focus + label { border: 0.2rem solid #f07; }
-  #storeBox > form #typeW { position: absolute; z-index: -1; opacity: 0; width: 12.5rem; height: 2.5rem; }
+  #storeBox > form #typeW { position: absolute; z-index: -1; opacity: 0; max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; }
   #storeBox > form #typeW:focus + label { border: 0.2rem solid #f07; }
-  #storeBox > form #typeaLab { position: absolute; z-index: -1; opacity: 0; width: 12.5rem; height: 2.5rem; }
+  #storeBox > form #typeaLab { position: absolute; z-index: -1; opacity: 0; max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; }
   #storeBox > form #typeaLab:focus + label { border: 0.2rem solid #f07; }
-  #storeBox > form #typeQueen { position: absolute; z-index: -1; opacity: 0; width: 12.5rem; height: 2.5rem; }
+  #storeBox > form #typeQueen { position: absolute; z-index: -1; opacity: 0; max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; }
   #storeBox > form #typeQueen:focus + label { border: 0.2rem solid #f07; }
-  #storeBox > form #typeNodle { position: absolute; z-index: -1; opacity: 0; width: 12.5rem; height: 2.5rem; }
+  #storeBox > form #typeNodle { position: absolute; z-index: -1; opacity: 0; max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; }
   #storeBox > form #typeNodle:focus + label { border: 0.2rem solid #f07; }
-  #storeBox > form #type83Grill { position: absolute; z-index: -1; opacity: 0; width: 12.5rem; height: 2.5rem; }
+  #storeBox > form #type83Grill { position: absolute; z-index: -1; opacity: 0; max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; }
   #storeBox > form #type83Grill:focus + label { border: 0.2rem solid #f07; }
   #storeBox > form > fieldset.service { width: 100%; height: auto; }
   #storeBox > form > fieldset.service > h2 { width: 5rem; height: 1.5rem; text-align: center; font-size: 1.25rem; margin: 0 auto; margin-bottom: 1.25rem; }
   #storeBox > form > fieldset.service > div { max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; float: left; border: 1px solid #9B9B9B; }
-  #storeBox > form > fieldset.service > div:nth-of-type(1) { margin-right: 6.25vw; margin-bottom: 1.875rem; }
+  #storeBox > form > fieldset.service > div:nth-of-type(1) { margin-right: 3.5vw; margin-bottom: 1.875rem; }
   #storeBox > form > fieldset.service > div:nth-of-type(2) { margin-bottom: 1.875rem; }
-  #storeBox > form > fieldset.service > div:nth-of-type(3) { margin-right: 6.25vw; margin-bottom: 1.875rem; }
+  #storeBox > form > fieldset.service > div:nth-of-type(3) { margin-right: 3.5vw; margin-bottom: 1.875rem; }
   #storeBox > form > fieldset.service > div:nth-of-type(4) { margin-bottom: 1.875rem; }
-  #storeBox > form > fieldset.service > div:nth-of-type(5) { margin-right: 6.25vw; margin-bottom: 3.125rem; }
+  #storeBox > form > fieldset.service > div:nth-of-type(5) { margin-right: 3.5vw; margin-bottom: 3.125rem; }
   #storeBox > form > fieldset.service > div > label[for="wine"] { display: block; width: 100%; height: 100%; text-transform: uppercase; line-height: 2.5rem; font-weight: bold; }
   #storeBox > form > fieldset.service > div > label[for="wine"].checked { color: #ffffff; background-color: #476401; }
   #storeBox > form > fieldset.service > div > label[for="wine"] > span { display: block; width: 1.125rem; height: 1.313rem; float: left; margin-top: 0.7rem; margin-left: 15vw; margin-right: 3.333333vw; background-image: url("../img/icon/wine-glass.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
@@ -163,15 +163,15 @@
   #storeBox > form > fieldset.service > div > label[for="wifi"].checked { color: #ffffff; background-color: #476401; }
   #storeBox > form > fieldset.service > div > label[for="wifi"] > span { display: block; width: 1.125rem; height: 1.313rem; float: left; margin-top: 0.7rem; margin-left: 10vw; margin-right: 3.333333vw; background-image: url("../img/icon/wifi.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #storeBox > form > fieldset.service > div > label[for="wifi"] > span.checked { background-image: url("../img/icon/wifiW.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
-  #storeBox > form #wine { position: absolute; z-index: -1; opacity: 0; width: 12.5rem; height: 2.5rem; }
+  #storeBox > form #wine { position: absolute; z-index: -1; opacity: 0; max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; }
   #storeBox > form #wine:focus + label { border: 0.2rem solid #f07; }
-  #storeBox > form #beer { position: absolute; z-index: -1; opacity: 0; width: 12.5rem; height: 2.5rem; }
+  #storeBox > form #beer { position: absolute; z-index: -1; opacity: 0; max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; }
   #storeBox > form #beer:focus + label { border: 0.2rem solid #f07; }
-  #storeBox > form #takeOut { position: absolute; z-index: -1; opacity: 0; width: 12.5rem; height: 2.5rem; }
+  #storeBox > form #takeOut { position: absolute; z-index: -1; opacity: 0; max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; }
   #storeBox > form #takeOut:focus + label { border: 0.2rem solid #f07; }
-  #storeBox > form #forBaby { position: absolute; z-index: -1; opacity: 0; width: 12.5rem; height: 2.5rem; }
+  #storeBox > form #forBaby { position: absolute; z-index: -1; opacity: 0; max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; }
   #storeBox > form #forBaby:focus + label { border: 0.2rem solid #f07; }
-  #storeBox > form #wifi { position: absolute; z-index: -1; opacity: 0; width: 12.5rem; height: 2.5rem; }
+  #storeBox > form #wifi { position: absolute; z-index: -1; opacity: 0; max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; }
   #storeBox > form #wifi:focus + label { border: 0.2rem solid #f07; }
   #storeBox > ul.search_result { width: 100%; height: auto; }
   #storeBox > ul.search_result > li { width: 100%; height: auto; }

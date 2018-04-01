@@ -96,9 +96,9 @@
   #customerBox > form > fieldset.category { width: 100%; height: auto; }
   #customerBox > form > fieldset.category > h2 { width: 5rem; height: 1.5rem; text-align: center; font-size: 1.25rem; margin: 0 auto; margin-bottom: 1.25rem; }
   #customerBox > form > fieldset.category > div { max-width: 12.5rem; width: 41.666666vw; height: 2.5rem; float: left; border: 1px solid #9B9B9B; }
-  #customerBox > form > fieldset.category > div:nth-of-type(1) { margin-right: 6.25vw; margin-bottom: 1.875rem; }
+  #customerBox > form > fieldset.category > div:nth-of-type(1) { margin-right: 3.5vw; margin-bottom: 1.875rem; }
   #customerBox > form > fieldset.category > div:nth-of-type(2) { margin-bottom: 1.875rem; }
-  #customerBox > form > fieldset.category > div:nth-of-type(3) { margin-right: 6.25vw; margin-bottom: 1.875rem; }
+  #customerBox > form > fieldset.category > div:nth-of-type(3) { margin-right: 3.5vw; margin-bottom: 1.875rem; }
   #customerBox > form > fieldset.category > div:nth-of-type(4) { margin-bottom: 3.125rem; }
   #customerBox > form > fieldset.category > div > label[for="allType"] { display: block; width: 100%; height: 100%; text-transform: uppercase; text-align: center; line-height: 2.5rem; font-weight: bold; }
   #customerBox > form > fieldset.category > div > label[for="allType"].checked { color: #ffffff; background-color: #476401; }
