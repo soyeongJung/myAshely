@@ -31,22 +31,116 @@
 
       <form action="#", method="get">
         <h2>매장검색</h2>
-        <fieldset class="store_area">
+        <fieldset class="store_area clearfix">
           <legend class="hidden">애슐리 매장 위치 검색</legend>
-          <input />
-          <label></label>
+          <div class="area_select_do">
+            <dl>
+              <dt>시 &#47; 도</dt>
+              <dd>
+                <ul>
+                  <li><a href="#">경기도</a></li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+          <div class="area_select_si">
+            <dl>
+              <dt>시 &#47; 군 &#47; 구</dt>
+              <dd>
+                <ul>
+                  <li><a href="#">수원시</a></li>
+                  <li><a href="#">평택시</a></li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+          <input id="storeSearch" type="text" name="storeSearch" value="" placeholder="지점명 또는 주소를 입력하세요." />
+          <label for="storeSearch" class="hidden"></label>
+          <div class="search_btn"><button type="button">검색</button></div>
         </fieldset>
+
         <fieldset class="type">
+          <h2>타입</h2>
           <legend class="hidden">애슐리 타입에 따른 매장 검색</legend>
-          <input />
-          <label></label>
+          <div>
+            <input id="typeClassic" type="checkbox" name="typeClassic" value="classic" />
+            <label for="typeClassic">classic</label>
+          </div>
+          <div>
+            <input id="typeW" type="checkbox" name="typeW" value="w" />
+            <label for="typeW">w</label>
+          </div>
+          <div>
+            <input id="typeaLab" type="checkbox" name="typeaLab" value="alab" />
+            <label for="typeaLab">a-lab</label>
+          </div>
+          <div>
+            <input id="typeQueen" type="checkbox" name="typeQueen" value="queen" />
+            <label for="typeQueen">queen</label>
+          </div>
+          <div>
+            <input id="typeNodle" type="checkbox" name="typeNodle" value="노들나루점" />
+            <label for="typeNodle">노들나루점</label>
+          </div>
+          <div>
+            <input id="type83Grill" type="checkbox" name="type83Grill" value="83grill" />
+            <label for="type83Grill">83grill</label>
+          </div>
         </fieldset>
+
         <fieldset class="service">
+          <h2>서비스</h2>
           <legend class="hidden">애슐리 서비스에 따른 매장 검색</legend>
-          <input />
-          <label></label>
+          <div>
+            <input id="wine" type="checkbox" name="wine" value="와인" />
+            <label for="wine"><span></span>와인</label>
+          </div>
+          <div>
+            <input id="beer" type="checkbox" name="beer" value="맥주" />
+            <label for="beer"><span></span>맥주</label>
+          </div>
+          <div>
+            <input id="takeOut" type="checkbox" name="takeOut" value="take out" />
+            <label for="takeOut"><span></span>take out</label>
+          </div>
+          <div>
+            <input id="forBaby" type="checkbox" name="forBaby" value="수유실" />
+            <label for="forBaby"><span></span>수유실</label>
+          </div>
+          <div>
+            <input id="wifi" type="checkbox" name="wifi" value="와이파이" />
+            <label for="wifi"><span></span>와이파이</label>
+          </div>
         </fieldset>
-      </form>      
+      </form> 
+
+      <ul class="search_result">
+        <li>
+          <dl>
+            <dt>83그릴바이애슐리</dt>
+            <dd class="result_con clearfix">
+              <p>대구광역시 달서구 두류공원로 200 (두류동 산 302-11) 이월드 83타워 78층</p>
+              <div><span>83</span></div>
+              <ul class="clearfix">
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+              </ul>
+            </dd>
+            <dd class="result_map">
+              <div class="map_btn">
+                <ul>
+                  <li><button type="button"><span></span></button></li>
+                  <li class="map_show"><button type="button">상세지도 보기<span></span></button></li>
+                </ul>
+              </div>
+              <div class="show_map"></div>
+            </dd>
+          </dl>
+        </li>
+      </ul>   
+
+      <div class="list_more"><button type="button">더보기</button></div>  
 
     </article>
   </div>
@@ -57,6 +151,6 @@
   <!-- <script src="../js/base/respond.js"></script> -->
   <!-- <script src="../js/base/template.js"></script> -->
   <script src="../js/src/base.js"></script>
-  <!-- <script src="../js/src/store.js"></script> -->
+  <script src="../js/src/mobile_store.js"></script>
 </body>
 </html>

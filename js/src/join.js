@@ -86,7 +86,7 @@
   // checkAll(useChecked);
   // checkAll(personChecked);
 
-    var nextBtn = $('.conf');
+  var nextBtn = $('.conf');
   nextBtn.on('click', function(e){
     var useChecked = useCheckBox.attr('checked');
     var personChecked = personCheckBox.attr('checked');
@@ -119,6 +119,22 @@
 //    $(this).text(test1);
 // });
 
+
+// =========== con1 , con2 showBtn=============
+var con1 = $('.con1');
+var con2 = $('.con2');
+var showBtn01 = $('.show_btn_01');
+var showBtn02 = $('.show_btn_02');
+
+showBtn01.on('click', function(e) {
+  e.preventDefault();
+  con1.toggleClass('showme');
+});
+
+showBtn02.on('click', function(e) {
+  e.preventDefault();
+  con2.toggleClass('showme');
+});
 
 
 })(this.jQuery);

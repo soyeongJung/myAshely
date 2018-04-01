@@ -74,17 +74,23 @@
   #joinInputBox > form.join_area > fieldset.input_area > div.tel_box { width: 100%; height: 3.75rem; margin-top: 1rem; }
   #joinInputBox > form.join_area > fieldset.input_area > div.tel_box > label[for="middleTel"] { width: auto; height: auto; }
   #joinInputBox > form.join_area > fieldset.input_area > div.tel_box > label[for="lastTel"] { width: auto; height: auto; }
-  #joinInputBox > form.join_area fieldset.agreement_area { width: 23rem; height: auto; margin: 0 auto; }
+  #joinInputBox > form.join_area fieldset.agreement_area { max-width: 23rem; width: 76.666666vw; height: auto; margin: 0 auto; }
   #joinInputBox > form.join_area fieldset.agreement_area > label[for="agreeAllBox"] { width: 100%; height: 2.375rem; }
   #joinInputBox > form.join_area fieldset.agreement_area > label[for="agreeAllBox"] > span.check_icon { display: block; width: 1.938rem; height: 2.25rem; float: left; margin-right: 47px; background-image: url("../img/icon/check.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
-  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box { width: 100%; height: auto; margin: 0 auto; margin-top: 30px; border: 1px solid #333333; padding: 27px 22px; }
-  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > label[for="useCheckBox"] { display: block; width: 100%; height: 2.375rem; line-height: 2.375rem; margin-bottom: 20px; }
+  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box { width: 100%; height: auto; margin: 0 auto; margin-top: 30px; border: 1px solid #333333; padding: 27px 4.583333vw; }
+  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > label[for="useCheckBox"] { display: block; max-width: 20.625rem; width: 68.75vw; height: 2.375rem; line-height: 2.375rem; margin-bottom: 20px; float: left; }
   #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > label[for="useCheckBox"] > span.check_icon { display: block; width: 1.938rem; height: 2.25rem; float: left; margin-right: 47px; background-image: url("../img/icon/check.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
-  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > label[for="personCheckBox"] { display: block; width: 100%; height: 2.375rem; line-height: 2.375rem; }
+  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > div.show_btn_01 { width: 2.375rem; height: 2.375rem; float: right; background-image: url("../img/icon/arrowDown.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > div.show_btn_02 { width: 2.375rem; height: 2.375rem; float: right; background-image: url("../img/icon/arrowDown.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > label[for="personCheckBox"] { display: block; max-width: 20.625rem; width: 68.75vw; height: 2.375rem; line-height: 2.375rem; float: left; }
   #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > label[for="personCheckBox"] > span.check_icon { display: block; width: 1.938rem; height: 2.25rem; float: left; margin-right: 47px; background-image: url("../img/icon/check.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
-  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > div.con1 { display: none; padding: 1rem; box-sizing: border-box; }
-  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > div.con2 { display: none; padding: 1rem; box-sizing: border-box; }
-  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > div.show { display: block; }
+  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > div.con1 { display: none; padding: 1rem; box-sizing: border-box; margin-bottom: 3rem; font-size: 0.75rem; float: left; }
+  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > div.con1 > h3 { font-size: 1rem; }
+  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > div.con1 > h4 { font-size: 0.75rem; }
+  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > div.con2 { display: none; padding: 1rem; box-sizing: border-box; margin-bottom: 3rem; font-size: 0.75rem; float: left; }
+  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > div.con2 > h3 { font-size: 1rem; }
+  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > div.con2 > h4 { font-size: 0.75rem; }
+  #joinInputBox > form.join_area fieldset.agreement_area > div.agree_box > div.showme { display: block; }
   #joinInputBox > form.join_area > fieldset.btn_area { width: 17.251rem; height: 3.75rem; margin: 0 auto; margin-top: 60px; }
   #joinInputBox > form.join_area > fieldset.btn_area > div { width: 100%; height: 100%; }
   #joinInputBox > form.join_area > fieldset.btn_area > div > button { width: 6.438rem; height: 100%; font-weight: bold; }
