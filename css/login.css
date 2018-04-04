@@ -25,7 +25,7 @@
   #headUlb .head_sns > li > a:hover, #headUlb .head_sns > li > a:focus { color: #476401; }
   #headUlb .head_sns > li > a > i { font-size: 1.5rem; color: inherit; }
   #headUlb .head_sns > li > a > span { width: 0; height: 0; overflow: hidden; position: absolute; z-index: -1; }
-  #menuBox { width: 100%; height: auto; min-height: 18.75vw; background-image: url("../img/gnbBox/gnbBox_f.png"), url("../img/gnbBox/gnbBox_l.png"), url("../img/gnbBox/gnbBox_m.png"); background-repeat: no-repeat, no-repeat, repeat-x; background-position: left center, right center, center center; padding: 28px 16px; box-sizing: border-box; }
+  #menuBox { width: 100%; height: auto; min-height: 18.75vw; background-image: url("../img/gnbBox/gnbBox_f.png"), url("../img/gnbBox/gnbBox_l.png"), url("../img/gnbBox/gnbBox_m.png"); background-repeat: no-repeat, no-repeat, repeat-x; background-position: left top, right top, center top; padding: 28px 16px; box-sizing: border-box; }
   #menuBox.active { width: 100%; height: 115vw; background-image: url("../img/gnbBox/actGnbBox.png"); background-repeat: no-repeat; background-position: "top"; background-size: contain; padding: 28px 16px; }
   #menuBox > div { width: 100%; height: auto; }
   #menuBox > div > h1 { width: 8.063rem; height: 1.75rem; float: left; }
@@ -53,9 +53,148 @@
   #menuBox > .open_area.active > dl.menu_box > dd > a { display: block; width: 100%; height: 5.7rem; line-height: 5.7rem; text-transform: uppercase; float: left; color: #ffffff; border-bottom: 1px solid #979797; text-indent: 1rem; }
   #searchText { width: 100%; height: 100%; border-radius: 2rem; } }
 
+@media screen and (min-width: 481px) and (max-width: 959px) { #headBox { width: 100%; height: auto; padding: 1rem; box-sizing: border-box; }
+  #headUlb { width: 100%; height: auto; }
+  #headUlb .members { width: auto; height: 2rem; float: left; }
+  #headUlb .members > li { width: 5rem; height: 2rem; float: left; color: #152315; margin-right: 9px; }
+  #headUlb .members > li:last-child { width: 6.3rem; margin: 0; }
+  #headUlb .members > li > a { display: block; width: 100%; height: 100%; color: inherit; line-height: 2rem; }
+  #headUlb .members > li > a:hover, #headUlb .members > li > a:focus { color: #476401; }
+  #headUlb .members > li > a:hover > span.login, #headUlb .members > li > a:focus > span.login { background-image: url("../img/icon/a_login.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .members > li > a:hover > span.join, #headUlb .members > li > a:focus > span.join { background-image: url("../img/icon/a_join.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .members > li > a > span { display: block; margin-right: 10px; }
+  #headUlb .members > li > a > span.login { width: 1.25rem; height: 1.25rem; margin-top: 0.25rem; background-image: url("../img/icon/login.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
+  #headUlb .members > li > a > span.join { width: 1.5rem; height: 1.5rem; background-image: url("../img/icon/join.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
+  #headUlb .head_sns { width: auto; height: auto; float: right; }
+  #headUlb .head_sns > li { width: 1.313rem; height: 1.5rem; float: left; margin-right: 28px; }
+  #headUlb .head_sns > li:nth-of-type(1) > a { background-image: url("../img/icon/fb.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .head_sns > li:nth-of-type(1) > a:hover, #headUlb .head_sns > li:nth-of-type(1) > a:focus { background-image: url("../img/icon/hoverfb.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .head_sns > li:nth-of-type(2) > a { background-image: url("../img/icon/blog.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .head_sns > li:nth-of-type(2) > a:hover, #headUlb .head_sns > li:nth-of-type(2) > a:focus { background-image: url("../img/icon/hoverblog.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .head_sns > li:nth-of-type(3) > a { margin: 0; background-image: url("../img/icon/insta.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .head_sns > li:nth-of-type(3) > a:hover, #headUlb .head_sns > li:nth-of-type(3) > a:focus { background-image: url("../img/icon/hoverinsta.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .head_sns > li > a { display: block; width: 100%; height: 100%; color: #152315; }
+  #headUlb .head_sns > li > a:hover, #headUlb .head_sns > li > a:focus { color: #476401; }
+  #headUlb .head_sns > li > a > i { font-size: 1.5rem; color: inherit; }
+  #headUlb .head_sns > li > a > span { width: 0; height: 0; overflow: hidden; position: absolute; z-index: -1; }
+  #menuBox { width: 100%; height: auto; min-height: 18.75vw; background-image: url("../img/gnbBox/gnbBox_f.png"), url("../img/gnbBox/gnbBox_l.png"), url("../img/gnbBox/gnbBox_m.png"); background-repeat: no-repeat, no-repeat, repeat-x; background-position: left top, right top, center top; padding: 28px 16px; box-sizing: border-box; }
+  #menuBox.active { width: 100%; height: 115vw; background-image: url("../img/gnbBox/actGnbBox.png"); background-repeat: no-repeat; background-position: "top"; background-size: contain; padding: 28px 16px; }
+  #menuBox > div { width: 100%; height: auto; }
+  #menuBox > div > h1 { width: 8.063rem; height: 1.75rem; float: left; }
+  #menuBox > div > h1 > a { display: block; width: 100%; height: 100%; background-image: url("../img/logo/ashley_white.png"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #menuBox > div > .open_btn { width: 2.063rem; height: 2.063rem; float: right; background-color: #152315; }
+  #menuBox > div > .open_btn > button { width: 100%; height: 100%; position: relative; background-color: inherit; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out; -o-transition: .5s ease-in-out; transition: .5s ease-in-out; cursor: pointer; }
+  #menuBox > div > .open_btn > button.active > span:nth-of-type(1) { -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); top: 3px; left: 5px; }
+  #menuBox > div > .open_btn > button.active > span:nth-of-type(2) { width: 0%; opacity: 0; }
+  #menuBox > div > .open_btn > button.active > span:nth-of-type(3) { -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); top: 23px; left: 5px; }
+  #menuBox > div > .open_btn > button span { display: block; position: absolute; height: 0.25rem; width: 100%; margin-top: 3px; border-radius: 3px; opacity: 1; left: 0; background-color: #ffffff; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out; }
+  #menuBox > div > .open_btn > button span:nth-of-type(1) { top: 0px; -webkit-transform-origin: left center; -moz-transform-origin: left center; -o-transform-origin: left center; transform-origin: left center; margin: 0; }
+  #menuBox > div > .open_btn > button span:nth-of-type(2) { top: 12px; -webkit-transform-origin: left center; -moz-transform-origin: left center; -o-transform-origin: left center; transform-origin: left center; }
+  #menuBox > div > .open_btn > button span:nth-of-type(3) { top: 27px; -webkit-transform-origin: left center; -moz-transform-origin: left center; -o-transform-origin: left center; transform-origin: left center; }
+  #menuBox > .open_area { display: none; }
+  #menuBox > .open_area.active { display: block; }
+  #menuBox > .open_area.active > form.head_search_box { width: 100%; height: 9.793333vw; margin-top: 5.41667vw; margin-bottom: 2.66667vw; }
+  #menuBox > .open_area.active > form.head_search_box > fieldset.search_area { width: 100%; height: 100%; position: relative; }
+  #menuBox > .open_area.active > form.head_search_box > fieldset.search_area > label[for="searchText"] { display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+  #menuBox > .open_area.active > form.head_search_box > fieldset.search_area > label[for="searchText"] > i.locate_search { display: block; width: 1.25rem; height: 1.313rem; float: right; margin-right: 0.9rem; margin-top: 0.7rem; background-image: url("../img/icon/search.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #menuBox > .open_area.active > dl.menu_box { width: 100%; height: 60vw; overflow: scroll; }
+  #menuBox > .open_area.active > dl.menu_box > dt { width: 100%; height: 5.7rem; line-height: 5.7rem; text-transform: uppercase; color: #ffffff; border-bottom: 1px solid #979797; text-indent: 1rem; }
+  #menuBox > .open_area.active > dl.menu_box > dt > span.plus { display: block; width: 1rem; height: 1rem; float: right; margin-right: 1rem; margin-top: 2.38rem; background-image: url("../img/icon/plus.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #menuBox > .open_area.active > dl.menu_box > dt > span.minus { display: block; width: 1rem; height: 1rem; float: right; margin-right: 1rem; margin-top: 2.38rem; background-image: url("../img/icon/remove.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #menuBox > .open_area.active > dl.menu_box > dd { width: 100%; height: auto; display: none; }
+  #menuBox > .open_area.active > dl.menu_box > dd > a { display: block; width: 100%; height: 5.7rem; line-height: 5.7rem; text-transform: uppercase; float: left; color: #ffffff; border-bottom: 1px solid #979797; text-indent: 1rem; }
+  #searchText { width: 100%; height: 100%; border-radius: 2rem; } }
+
+@media screen and (min-width: 960px) { #headBox { width: 100%; height: auto; padding: 1rem; box-sizing: border-box; }
+  #headUlb { width: 58.75rem; height: auto; margin: 0 auto; }
+  #headUlb .members { width: auto; height: 2rem; float: left; }
+  #headUlb .members > li { width: 5rem; height: 2rem; float: left; color: #152315; margin-right: 9px; }
+  #headUlb .members > li:last-child { width: 6.3rem; margin: 0; }
+  #headUlb .members > li > a { display: block; width: 100%; height: 100%; color: inherit; line-height: 2rem; }
+  #headUlb .members > li > a:hover, #headUlb .members > li > a:focus { color: #476401; }
+  #headUlb .members > li > a:hover > span.login, #headUlb .members > li > a:focus > span.login { background-image: url("../img/icon/a_login.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .members > li > a:hover > span.join, #headUlb .members > li > a:focus > span.join { background-image: url("../img/icon/a_join.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #headUlb .members > li > a > span { display: block; margin-right: 10px; }
+  #headUlb .members > li > a > span.login { width: 1.25rem; height: 1.25rem; margin-top: 0.25rem; background-image: url("../img/icon/login.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
+  #headUlb .members > li > a > span.join { width: 1.5rem; height: 1.5rem; background-image: url("../img/icon/join.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
+  #headUlb .head_sns { width: auto; height: auto; float: right; }
+  #headUlb .head_sns > li { width: 6.875rem; height: 1.938rem; float: left; margin-right: 28px; }
+  #headUlb .head_sns > li:nth-of-type(1) > a { background-image: url("../img/icon/fb.svg"); background-repeat: no-repeat; background-position: "left"; background-size: contain; }
+  #headUlb .head_sns > li:nth-of-type(1) > a:hover, #headUlb .head_sns > li:nth-of-type(1) > a:focus { background-image: url("../img/icon/hoverfb.svg"); background-repeat: no-repeat; background-position: "left"; background-size: contain; }
+  #headUlb .head_sns > li:nth-of-type(2) > a { width: 4.625rem; background-image: url("../img/icon/blog.svg"); background-repeat: no-repeat; background-position: "left"; background-size: contain; }
+  #headUlb .head_sns > li:nth-of-type(2) > a:hover, #headUlb .head_sns > li:nth-of-type(2) > a:focus { background-image: url("../img/icon/hoverblog.svg"); background-repeat: no-repeat; background-position: "left"; background-size: contain; }
+  #headUlb .head_sns > li:nth-of-type(3) > a { margin: 0; background-image: url("../img/icon/insta.svg"); background-repeat: no-repeat; background-position: "left"; background-size: contain; }
+  #headUlb .head_sns > li:nth-of-type(3) > a:hover, #headUlb .head_sns > li:nth-of-type(3) > a:focus { background-image: url("../img/icon/hoverinsta.svg"); background-repeat: no-repeat; background-position: "left"; background-size: contain; }
+  #headUlb .head_sns > li > a { display: block; width: 100%; height: 100%; color: #152315; }
+  #headUlb .head_sns > li > a:hover, #headUlb .head_sns > li > a:focus { color: #476401; }
+  #headUlb .head_sns > li > a > span { display: block; width: 100%; height: 100%; text-align: right; line-height: 190%; }
+  #menuBox { width: 58.75rem; height: 6rem; margin: 0 auto; background-image: url("../img/gnbBox/gnbBox_f.png"), url("../img/gnbBox/gnbBox_l.png"), url("../img/gnbBox/gnbBox_m.png"); background-repeat: no-repeat, no-repeat, repeat-x; background-position: left top, right top, center top; padding: 28px 16px; box-sizing: border-box; }
+  #menuBox.active { width: 58.75rem; height: auto; background-image: url("../img/gnbBox/actGnbBox_f.png"), url("../img/gnbBox/actGnbBox_l.png"), url("../img/gnbBox/actGnbBox_m.png"); background-repeat: no-repeat, no-repeat, repeat-x; background-position: left top, right top, center top; padding: 28px 16px; margin: 0 auto; }
+  #menuBox > div { width: 8.063rem; height: auto; float: left; }
+  #menuBox > div > h1 { width: 100%; height: 1.75rem; }
+  #menuBox > div > h1 > a { display: block; width: 100%; height: 100%; background-image: url("../img/logo/ashley_white.png"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #menuBox > div > .open_btn { display: none; }
+  #menuBox > .open_area { float: right; width: 40.8125rem; }
+  #menuBox > .open_area > dl.menu_box { width: 100%; height: auto; }
+  #menuBox > .open_area > dl.menu_box > dt:nth-of-type(4) { margin-right: 0; }
+  #menuBox > .open_area > dl.menu_box > dt { width: 25%; height: auto; float: left; text-align: center; box-sizing: border-box; padding: 0.5rem; }
+  #menuBox > .open_area > dl.menu_box > dt > a { width: 100%; height: 100%; text-transform: uppercase; color: #ffffff; font-size: 1.125rem; }
+  #menuBox > .open_area > dl.menu_box > dt:hover, #menuBox > .open_area > dl.menu_box > dt:focus { border-bottom: 3px solid #ffffff; }
+  #menuBox > .open_area > dl.menu_box > dd { width: 25%; height: auto; line-height: 30px; float: left; text-align: center; margin-left: -25%; margin-top: 40px; display: none; }
+  #menuBox > .open_area > dl.menu_box > dd.act { display: block; transition: all 300ms ease-in; }
+  #menuBox > .open_area > dl.menu_box > dd > a { display: block; width: 100%; height: 5.7rem; padding-top: 2rem; text-transform: uppercase; float: left; color: #ffffff; border-bottom: 1px solid #979797; text-indent: 1rem; box-sizing: border-box; }
+  #menuBox > .open_area > dl.menu_box > dd:first-of-type a:last-of-type { padding-top: 1rem; }
+  #searchText { display: none; } }
+
 @media screen and (max-width: 480px) { #gnbBox { display: none; } }
 
+@media screen and (min-width: 481px) and (max-width: 959px) { #gnbBox { display: none; } }
+
+@media screen and (min-width: 960px) { #gnbBox { display: none; } }
+
 @media screen and (max-width: 480px) { #loginBox { width: 100%; height: auto; margin-top: 60px; margin-bottom: 60px; }
+  #loginInputBox { width: 100%; height: auto; }
+  #loginInputBox > h2 { width: 6rem; height: 1.5rem; text-align: center; font-size: 1.25rem; margin: 0 auto; }
+  #loginInputBox > h2 > span.deco_left { display: block; width: 1rem; height: 0.938rem; background-image: url("../img/main/textDeco/black/textDecoB_left.png"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
+  #loginInputBox > h2 > span.deco_right { display: block; width: 1rem; height: 0.938rem; background-image: url("../img/main/textDeco/black/textDecoB_right.png"); background-repeat: no-repeat; background-position: center; background-size: contain; float: right; }
+  #loginInputBox > p { width: 16rem; height: 1.188rem; font-size: 1rem; margin: 0 auto; margin-top: 13px; margin-bottom: 2.25rem; }
+  #loginInputBox > form.login_area { width: 100%; height: auto; }
+  #loginInputBox > form.login_area > fieldset.input_box { width: 23rem; height: auto; margin: 0 auto; }
+  #loginInputBox > form.login_area > fieldset.input_box > div { width: 23rem; height: 3.75rem; margin-bottom: 2.6875rem; }
+  #loginInputBox > form.login_area > fieldset.input_box > div > button { width: 100%; height: 100%; background-color: #333333; color: #ffffff; font-size: 1rem; }
+  #loginInputBox > form.login_area > fieldset.input_box > div > button:hover, #loginInputBox > form.login_area > fieldset.input_box > div > button:focus { background-color: #476401; }
+  #loginInputBox > form.login_area > ul { width: 23rem; height: auto; margin: 0 auto; }
+  #loginInputBox > form.login_area > ul > li { width: 7rem; height: 3.75rem; margin-right: 2rem; float: left; }
+  #loginInputBox > form.login_area > ul > li:first-child { width: 11.5rem; }
+  #loginInputBox > form.login_area > ul > li > a { display: block; width: 100%; height: 100%; line-height: 2.5rem; }
+  #loginInputBox > form.login_area > ul > li > a > span.find_icon { display: block; width: 2.188rem; height: 2.188rem; margin-right: 10px; background-image: url("../img/icon/find.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
+  #loginInputBox > form.login_area > ul > li > a > span.join_icon { display: block; width: 2.188rem; height: 2.188rem; margin-right: 10px; background-image: url("../img/icon/join.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
+  #idArea { width: 23rem; height: 3.75rem; margin-bottom: 1.875rem; border: 1px solid #333333; }
+  #idArea[placeholder] { color: #333333; }
+  #pwArea { width: 23rem; height: 3.75rem; margin-bottom: 1.875rem; border: 1px solid #333333; } }
+
+@media screen and (min-width: 481px) and (max-width: 959px) { #loginBox { width: 100%; height: auto; margin-top: 60px; margin-bottom: 60px; }
+  #loginInputBox { width: 100%; height: auto; }
+  #loginInputBox > h2 { width: 6rem; height: 1.5rem; text-align: center; font-size: 1.25rem; margin: 0 auto; }
+  #loginInputBox > h2 > span.deco_left { display: block; width: 1rem; height: 0.938rem; background-image: url("../img/main/textDeco/black/textDecoB_left.png"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
+  #loginInputBox > h2 > span.deco_right { display: block; width: 1rem; height: 0.938rem; background-image: url("../img/main/textDeco/black/textDecoB_right.png"); background-repeat: no-repeat; background-position: center; background-size: contain; float: right; }
+  #loginInputBox > p { width: 16rem; height: 1.188rem; font-size: 1rem; margin: 0 auto; margin-top: 13px; margin-bottom: 2.25rem; }
+  #loginInputBox > form.login_area { width: 100%; height: auto; }
+  #loginInputBox > form.login_area > fieldset.input_box { width: 23rem; height: auto; margin: 0 auto; }
+  #loginInputBox > form.login_area > fieldset.input_box > div { width: 23rem; height: 3.75rem; margin-bottom: 2.6875rem; }
+  #loginInputBox > form.login_area > fieldset.input_box > div > button { width: 100%; height: 100%; background-color: #333333; color: #ffffff; font-size: 1rem; }
+  #loginInputBox > form.login_area > fieldset.input_box > div > button:hover, #loginInputBox > form.login_area > fieldset.input_box > div > button:focus { background-color: #476401; }
+  #loginInputBox > form.login_area > ul { width: 23rem; height: auto; margin: 0 auto; }
+  #loginInputBox > form.login_area > ul > li { width: 7rem; height: 3.75rem; margin-right: 2rem; float: left; }
+  #loginInputBox > form.login_area > ul > li:first-child { width: 11.5rem; }
+  #loginInputBox > form.login_area > ul > li > a { display: block; width: 100%; height: 100%; line-height: 2.5rem; }
+  #loginInputBox > form.login_area > ul > li > a > span.find_icon { display: block; width: 2.188rem; height: 2.188rem; margin-right: 10px; background-image: url("../img/icon/find.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
+  #loginInputBox > form.login_area > ul > li > a > span.join_icon { display: block; width: 2.188rem; height: 2.188rem; margin-right: 10px; background-image: url("../img/icon/join.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
+  #idArea { width: 23rem; height: 3.75rem; margin-bottom: 1.875rem; border: 1px solid #333333; }
+  #idArea[placeholder] { color: #333333; }
+  #pwArea { width: 23rem; height: 3.75rem; margin-bottom: 1.875rem; border: 1px solid #333333; } }
+
+@media screen and (min-width: 960px) { #loginBox { width: 100%; height: auto; margin-top: 60px; margin-bottom: 60px; }
   #loginInputBox { width: 100%; height: auto; }
   #loginInputBox > h2 { width: 6rem; height: 1.5rem; text-align: center; font-size: 1.25rem; margin: 0 auto; }
   #loginInputBox > h2 > span.deco_left { display: block; width: 1rem; height: 0.938rem; background-image: url("../img/main/textDeco/black/textDecoB_left.png"); background-repeat: no-repeat; background-position: center; background-size: contain; float: left; }
@@ -85,28 +224,85 @@
 #topBox > div.top_btn > a:hover, #topBox > div.top_btn > a:focus { background-color: #152315; }
 
 @media screen and (max-width: 480px) { #footBox { width: 100%; height: auto; padding: 1rem; box-sizing: border-box; background-color: #333333; }
-  #footBox > h2 { display: none; }
-  #footBox > div.info_box { width: 100%; height: auto; }
-  #footBox > div.info_box > ul { width: 100%; height: 0.938rem; }
-  #footBox > div.info_box > ul > li { font-size: 0.75rem; font-weight: bold; float: left; color: #ffffff; }
-  #footBox > div.info_box > ul > li:nth-child(1) { color: #c43552; margin-right: 10px; }
-  #footBox > div.info_box > ul > li:nth-child(2)::before { content: " | "; display: block; width: 0.063rem; height: 0.813rem; float: left; margin-right: 10px; line-height: 0.813rem; }
-  #footBox > div.info_box > ul > li:nth-child(3)::before { content: " | "; display: block; width: 0.063rem; height: 0.813rem; float: left; margin-left: 10px; margin-right: 10px; line-height: 0.813rem; }
-  #footBox > div.info_box > address { width: 21.863rem; margin-top: 20px; margin-bottom: 20px; height: auto; }
-  #footBox > div.info_box > address > p { color: #ffffff; font-size: 0.75rem; }
-  #footBox > div.foot_ulb { width: 100%; height: 1.875rem; }
-  #footBox > div.foot_ulb > a { width: 1.625rem; height: 100%; float: left; margin-right: 52px; }
-  #footBox > div.foot_ulb > a:nth-of-type(1) { background-image: url("../img/icon/fbw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
-  #footBox > div.foot_ulb > a:nth-of-type(2) { background-image: url("../img/icon/blogw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
-  #footBox > div.foot_ulb > a:nth-of-type(3) { background-image: url("../img/icon/instaw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; margin: 0; }
-  #footBox > div.foot_ulb > a > i { width: 100%; height: 100%; font-size: 1.875rem; color: #ffffff; }
-  #footBox > div.foot_ulb > dl { width: 9.438rem; height: 1.875rem; background-color: #ffffff; float: right; }
-  #footBox > div.foot_ulb > dl:hover > dd { display: block; }
-  #footBox > div.foot_ulb > dl > dt { width: 100%; height: 100%; padding: 10px; box-sizing: border-box; font-size: 0.75rem; line-height: 0.8rem; }
-  #footBox > div.foot_ulb > dl > dt > span.arrow_down { display: block; width: 0.75rem; height: 0.813rem; background-image: url("../img/icon/arrow_down.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: right; line-height: 0.813rem; }
-  #footBox > div.foot_ulb > dl > dd { width: 9.438rem; height: auto; background-color: rgba(51, 51, 51, 0.5); display: none; }
-  #footBox > div.foot_ulb > dl > dd > ul { width: 100%; height: auto; background-color: inherit; padding: 10px; box-sizing: border-box; }
-  #footBox > div.foot_ulb > dl > dd > ul > li { width: 100%; height: 1.875rem; background-color: transparent; text-align: center; }
-  #footBox > div.foot_ulb > dl > dd > ul > li:hover { background-color: #ffffff; color: #333333; }
-  #footBox > div.foot_ulb > dl > dd > ul > li > a { display: block; width: 100%; height: 100%; line-height: 35px; color: #ffffff; font-size: 0.75rem; }
-  #footBox > div.foot_ulb > dl > dd > ul > li > a:hover, #footBox > div.foot_ulb > dl > dd > ul > li > a:focus { color: #333333; } }
+  #footBox > div { width: 100%; height: auto; }
+  #footBox > div > h2 { display: none; }
+  #footBox > div > div.info_box { width: 100%; height: auto; }
+  #footBox > div > div.info_box > ul { width: 100%; height: 0.938rem; }
+  #footBox > div > div.info_box > ul > li { font-size: 0.75rem; font-weight: bold; float: left; color: #ffffff; }
+  #footBox > div > div.info_box > ul > li:nth-child(1) { color: #c43552; margin-right: 10px; }
+  #footBox > div > div.info_box > ul > li:nth-child(2)::before { content: " | "; display: block; width: 0.063rem; height: 0.813rem; float: left; margin-right: 10px; line-height: 0.813rem; }
+  #footBox > div > div.info_box > ul > li:nth-child(3)::before { content: " | "; display: block; width: 0.063rem; height: 0.813rem; float: left; margin-left: 10px; margin-right: 10px; line-height: 0.813rem; }
+  #footBox > div > div.info_box > address { width: 21.863rem; margin-top: 20px; margin-bottom: 20px; height: auto; }
+  #footBox > div > div.info_box > address > p { color: #ffffff; font-size: 0.75rem; }
+  #footBox > div > div.foot_ulb { width: 100%; height: 1.875rem; }
+  #footBox > div > div.foot_ulb > a { width: 1.625rem; height: 100%; float: left; margin-right: 52px; }
+  #footBox > div > div.foot_ulb > a:nth-of-type(1) { background-image: url("../img/icon/fbw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #footBox > div > div.foot_ulb > a:nth-of-type(2) { background-image: url("../img/icon/blogw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #footBox > div > div.foot_ulb > a:nth-of-type(3) { background-image: url("../img/icon/instaw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; margin: 0; }
+  #footBox > div > div.foot_ulb > a > i { width: 100%; height: 100%; font-size: 1.875rem; color: #ffffff; }
+  #footBox > div > div.foot_ulb > dl { width: 9.438rem; height: 1.875rem; background-color: #ffffff; float: right; }
+  #footBox > div > div.foot_ulb > dl:hover > dd { display: block; }
+  #footBox > div > div.foot_ulb > dl > dt { width: 100%; height: 100%; padding: 10px; box-sizing: border-box; font-size: 0.75rem; line-height: 0.8rem; }
+  #footBox > div > div.foot_ulb > dl > dt > span.arrow_down { display: block; width: 0.75rem; height: 0.813rem; background-image: url("../img/icon/arrow_down.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: right; line-height: 0.813rem; }
+  #footBox > div > div.foot_ulb > dl > dd { width: 9.438rem; height: auto; background-color: rgba(51, 51, 51, 0.5); display: none; }
+  #footBox > div > div.foot_ulb > dl > dd > ul { width: 100%; height: auto; background-color: inherit; padding: 10px; box-sizing: border-box; }
+  #footBox > div > div.foot_ulb > dl > dd > ul > li { width: 100%; height: 1.875rem; background-color: transparent; text-align: center; }
+  #footBox > div > div.foot_ulb > dl > dd > ul > li:hover { background-color: #ffffff; color: #333333; }
+  #footBox > div > div.foot_ulb > dl > dd > ul > li > a { display: block; width: 100%; height: 100%; line-height: 35px; color: #ffffff; font-size: 0.75rem; }
+  #footBox > div > div.foot_ulb > dl > dd > ul > li > a:hover, #footBox > div > div.foot_ulb > dl > dd > ul > li > a:focus { color: #333333; } }
+
+@media screen and (min-width: 481px) and (max-width: 959px) { #footBox { width: 100%; height: auto; padding: 1rem; box-sizing: border-box; background-color: #333333; }
+  #footBox > div { width: 100%; height: auto; }
+  #footBox > div > h2 { display: none; }
+  #footBox > div > div.info_box { width: 100%; height: auto; }
+  #footBox > div > div.info_box > ul { width: 100%; height: 0.938rem; }
+  #footBox > div > div.info_box > ul > li { font-size: 0.75rem; font-weight: bold; float: left; color: #ffffff; }
+  #footBox > div > div.info_box > ul > li:nth-child(1) { color: #c43552; margin-right: 10px; }
+  #footBox > div > div.info_box > ul > li:nth-child(2)::before { content: " | "; display: block; width: 0.063rem; height: 0.813rem; float: left; margin-right: 10px; line-height: 0.813rem; }
+  #footBox > div > div.info_box > ul > li:nth-child(3)::before { content: " | "; display: block; width: 0.063rem; height: 0.813rem; float: left; margin-left: 10px; margin-right: 10px; line-height: 0.813rem; }
+  #footBox > div > div.info_box > address { width: 21.863rem; margin-top: 20px; margin-bottom: 20px; height: auto; }
+  #footBox > div > div.info_box > address > p { color: #ffffff; font-size: 0.75rem; }
+  #footBox > div > div.foot_ulb { width: 26.313rem; height: 1.875rem; margin: 0 auto; }
+  #footBox > div > div.foot_ulb > a { width: 1.625rem; height: 100%; float: left; margin-right: 52px; }
+  #footBox > div > div.foot_ulb > a:nth-of-type(1) { background-image: url("../img/icon/fbw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #footBox > div > div.foot_ulb > a:nth-of-type(2) { background-image: url("../img/icon/blogw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #footBox > div > div.foot_ulb > a:nth-of-type(3) { background-image: url("../img/icon/instaw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; margin: 0; }
+  #footBox > div > div.foot_ulb > a > i { width: 100%; height: 100%; font-size: 1.875rem; color: #ffffff; }
+  #footBox > div > div.foot_ulb > dl { width: 9.438rem; height: 1.875rem; background-color: #ffffff; float: right; }
+  #footBox > div > div.foot_ulb > dl:hover > dd { display: block; }
+  #footBox > div > div.foot_ulb > dl > dt { width: 100%; height: 100%; padding: 10px; box-sizing: border-box; font-size: 0.75rem; line-height: 0.8rem; }
+  #footBox > div > div.foot_ulb > dl > dt > span.arrow_down { display: block; width: 0.75rem; height: 0.813rem; background-image: url("../img/icon/arrow_down.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: right; line-height: 0.813rem; }
+  #footBox > div > div.foot_ulb > dl > dd { width: 9.438rem; height: auto; background-color: rgba(51, 51, 51, 0.5); display: none; }
+  #footBox > div > div.foot_ulb > dl > dd > ul { width: 100%; height: auto; background-color: inherit; padding: 10px; box-sizing: border-box; }
+  #footBox > div > div.foot_ulb > dl > dd > ul > li { width: 100%; height: 1.875rem; background-color: transparent; text-align: center; }
+  #footBox > div > div.foot_ulb > dl > dd > ul > li:hover { background-color: #ffffff; color: #333333; }
+  #footBox > div > div.foot_ulb > dl > dd > ul > li > a { display: block; width: 100%; height: 100%; line-height: 35px; color: #ffffff; font-size: 0.75rem; }
+  #footBox > div > div.foot_ulb > dl > dd > ul > li > a:hover, #footBox > div > div.foot_ulb > dl > dd > ul > li > a:focus { color: #333333; } }
+
+@media screen and (min-width: 960px) { #footBox { width: 100%; height: auto; padding: 3.75rem 0; box-sizing: border-box; background-color: #333333; overflow: hidden; }
+  #footBox > div { width: 60rem; height: auto; margin: 0 auto; }
+  #footBox > div > h2 { width: 11.688rem; height: 2.563rem; display: block; float: left; margin-right: 1.5rem; background-image: url("../img/logo/ashley_white.png"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #footBox > div > div.info_box { width: 23rem; height: auto; float: left; }
+  #footBox > div > div.info_box > ul { width: 100%; height: 0.938rem; }
+  #footBox > div > div.info_box > ul > li { font-size: 0.75rem; font-weight: bold; float: left; color: #ffffff; }
+  #footBox > div > div.info_box > ul > li:nth-child(1) { color: #c43552; margin-right: 10px; }
+  #footBox > div > div.info_box > ul > li:nth-child(2)::before { content: " | "; display: block; width: 0.063rem; height: 0.813rem; float: left; margin-right: 10px; line-height: 0.813rem; }
+  #footBox > div > div.info_box > ul > li:nth-child(3)::before { content: " | "; display: block; width: 0.063rem; height: 0.813rem; float: left; margin-left: 10px; margin-right: 10px; line-height: 0.813rem; }
+  #footBox > div > div.info_box > address { width: 21.863rem; margin-top: 20px; height: auto; }
+  #footBox > div > div.info_box > address > p { color: #ffffff; font-size: 0.75rem; }
+  #footBox > div > div.foot_ulb { width: 20.688rem; height: 1.875rem; margin: 0 auto; float: left; }
+  #footBox > div > div.foot_ulb > a { width: 1.625rem; height: 100%; float: left; margin-right: 2.125rem; }
+  #footBox > div > div.foot_ulb > a:nth-of-type(1) { background-image: url("../img/icon/fbw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #footBox > div > div.foot_ulb > a:nth-of-type(2) { background-image: url("../img/icon/blogw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+  #footBox > div > div.foot_ulb > a:nth-of-type(3) { background-image: url("../img/icon/instaw.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; margin: 0; }
+  #footBox > div > div.foot_ulb > a > i { width: 100%; height: 100%; font-size: 1.875rem; color: #ffffff; }
+  #footBox > div > div.foot_ulb > dl { width: 9.438rem; height: 1.875rem; background-color: #ffffff; float: right; }
+  #footBox > div > div.foot_ulb > dl:hover > dd { display: block; }
+  #footBox > div > div.foot_ulb > dl > dt { width: 100%; height: 100%; padding: 10px; box-sizing: border-box; font-size: 0.75rem; line-height: 0.8rem; }
+  #footBox > div > div.foot_ulb > dl > dt > span.arrow_down { display: block; width: 0.75rem; height: 0.813rem; background-image: url("../img/icon/arrow_down.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; float: right; line-height: 0.813rem; }
+  #footBox > div > div.foot_ulb > dl > dd { width: 9.438rem; height: auto; background-color: rgba(51, 51, 51, 0.5); display: none; }
+  #footBox > div > div.foot_ulb > dl > dd > ul { width: 100%; height: auto; background-color: inherit; padding: 10px; box-sizing: border-box; }
+  #footBox > div > div.foot_ulb > dl > dd > ul > li { width: 100%; height: 1.875rem; background-color: transparent; text-align: center; }
+  #footBox > div > div.foot_ulb > dl > dd > ul > li:hover { background-color: #ffffff; color: #333333; }
+  #footBox > div > div.foot_ulb > dl > dd > ul > li > a { display: block; width: 100%; height: 100%; line-height: 35px; color: #ffffff; font-size: 0.75rem; }
+  #footBox > div > div.foot_ulb > dl > dd > ul > li > a:hover, #footBox > div > div.foot_ulb > dl > dd > ul > li > a:focus { color: #333333; } }

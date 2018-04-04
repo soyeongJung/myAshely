@@ -114,18 +114,30 @@
         </fieldset>
       </form> 
 
-      <ul class="search_result">
+      <ul class="search_result clearfix">
         <li>
+          <span class="no">번호</span>
+          <span class="area_n">지점명</span>
+          <span class="addr">주소</span>
+          <span class="type_s">타입</span>
+          <span class="view_m">상세보기</span>
+        </li>
+        <li class="clearfix">
           <dl>
-            <dt>83그릴바이애슐리</dt>
+            <dt class="clearfix">
+              <span>1</span>
+              <div>83그릴바이애슐리</div>
+            </dt>
             <dd class="result_con clearfix">
               <p>대구광역시 달서구 두류공원로 200 (두류동 산 302-11) 이월드 83타워 78층</p>
-              <div><span>83</span></div>
+              <div><span class="type_front">83</span><span class="type_back">grill</span></div>
+              <span class="more_view_btn"><button type="button"></button></span>
               <ul class="clearfix">
                 <li><span></span></li>
                 <li><span></span></li>
                 <li><span></span></li>
               </ul>
+              <!-- <span></span> -->
             </dd>
             <dd class="result_map">
               <div class="map_btn">
@@ -136,6 +148,7 @@
               </div>
               <div class="show_map"></div>
             </dd>
+            <dd id="modalBox"></dd>
           </dl>
         </li>
       </ul>   
@@ -152,5 +165,16 @@
   <!-- <script src="../js/base/template.js"></script> -->
   <script src="../js/src/base.js"></script>
   <script src="../js/src/mobile_store.js"></script>
+  <script> 
+      (function($) {
+        // 이미지 리스트 담는곳 (첫번째 인자)
+        var myJson = '../js/data/storeModal.json';
+        // 이비지가 담긴 경로 체크하는 곳 (두번째 인자)
+        var baseUrl = '../img/storeModal/';
+        
+        $('#modalBox').myGallery(myJson, baseUrl);
+        
+      })(this.jQuery); // 에러난다
+    </script>
 </body>
 </html>
