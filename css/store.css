@@ -345,7 +345,8 @@
   #storeBox > ul.search_result > li:nth-of-type(2) > dl > dd.result_map > div.show_map { display: none; }
   #storeBox > ul.search_result > li:nth-of-type(2) > dl > dd.result_map > div.show_map.showing { display: block; width: 100%; height: 10.625rem; background-image: url("../img/location_83.png"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #storeBox > div.list_more { width: 8.75rem; height: 3.75rem; margin: 0 auto; margin-top: 3.75rem; }
-  #storeBox > div.list_more > button { width: 100%; height: 100%; color: #ffffff; background-color: #476401; font-weight: bold; font-size: 1rem; } }
+  #storeBox > div.list_more > button { width: 100%; height: 100%; color: #ffffff; background-color: #476401; font-weight: bold; font-size: 1rem; }
+  #modalBox { display: none; } }
 
 @media screen and (min-width: 481px) and (max-width: 959px) { .viewPage { display: none; }
   #storeBox { width: 100%; height: auto; margin: 60px auto; padding: 0 1.25rem; box-sizing: border-box; }
@@ -474,7 +475,8 @@
   #storeBox > ul.search_result > li:nth-of-type(2) > dl > dd.result_map > div.show_map { display: none; }
   #storeBox > ul.search_result > li:nth-of-type(2) > dl > dd.result_map > div.show_map.showing { display: block; width: 100%; height: 10.625rem; background-image: url("../img/location_83.png"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #storeBox > div.list_more { width: 8.75rem; height: 3.75rem; margin: 0 auto; margin-top: 3.75rem; }
-  #storeBox > div.list_more > button { width: 100%; height: 100%; color: #ffffff; background-color: #476401; font-weight: bold; font-size: 1rem; } }
+  #storeBox > div.list_more > button { width: 100%; height: 100%; color: #ffffff; background-color: #476401; font-weight: bold; font-size: 1rem; }
+  #modalBox { display: none; } }
 
 @media screen and (min-width: 960px) { .viewPage { display: none; }
   #storeBox { width: 100%; height: auto; margin: 60px auto; padding: 0 1.25rem; box-sizing: border-box; overflow: hidden; }
