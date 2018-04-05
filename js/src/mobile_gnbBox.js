@@ -196,6 +196,7 @@ function gnbPc(){
     var _this = $(this).parent();
     var brother = _this.siblings().css('display');
     _this.siblings().children('a').css({'color':'#aaa'});
+    _this.siblings().css({boxShadow: '5px 5px 5px #ddd'});
     var bIndex = _this.index();
     var mt = gnbliH * (gnbliLength - bIndex);
 
@@ -272,6 +273,7 @@ console.log(showmLength);
     var _this = $(this).parent();
     var brother = _this.siblings().css('display');
     _this.siblings().children('a').css({'color':'#aaa'});
+    _this.siblings().css({boxShadow: '5px 5px 5px #ddd'});
     var bIndex = _this.index();
     var mt = showmH * (showmLength - bIndex);
 
@@ -344,7 +346,7 @@ console.log(showmLength);
     // console.log(_this);
     var brother = _this.siblings().css('display');
     _this.siblings().children('a').css({'color':'#aaa'});
-
+    _this.siblings().css({boxShadow: '5px 5px 5px #ddd'});
     showb.siblings().hide();
     // showbUl.removeAttr('style');
 

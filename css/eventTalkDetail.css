@@ -199,13 +199,13 @@
   #gnbBox > ul > li:first-child > a { display: block; width: 100%; height: 100%; color: #333333; font-weight: bold; text-transform: uppercase; }
   #gnbBox > ul > li { width: 75%; float: left; height: 100%; }
   #gnbBox > ul > li > ul.gnb_nav { width: 100%; height: auto; position: relative; z-index: 500; }
-  #gnbBox > ul > li > ul.gnb_nav > li { width: 100%; height: auto; line-height: 5.625rem; background-color: rgba(255, 255, 255, 0.8); text-transform: uppercase; display: none; }
+  #gnbBox > ul > li > ul.gnb_nav > li { width: 100%; height: auto; line-height: 5.625rem; background-color: rgba(255, 255, 255, 0.95); text-transform: uppercase; display: none; }
   #gnbBox > ul > li > ul.gnb_nav > li:after { content: " "; width: 100%; height: 0; clear: both; display: block; }
   #gnbBox > ul > li > ul.gnb_nav > li.showb_list { display: block; }
   #gnbBox > ul > li > ul.gnb_nav > li > a { display: block; width: 30%; height: 5.625rem; color: #333333; font-weight: bold; padding: 0 1rem; box-sizing: border-box; float: left; }
   #gnbBox > ul > li > ul.gnb_nav > li > a > span.gnb_down { display: block; float: right; width: 0.813rem; height: 1.25rem; margin-top: 2rem; background-image: url("../img/icon/gnb_down.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #gnbBox > ul > li > ul.gnb_nav > li > ul { width: 65%; height: auto; float: left; }
-  #gnbBox > ul > li > ul.gnb_nav > li > ul > li { width: 100%; height: auto; line-height: 5.625rem; background-color: rgba(255, 255, 255, 0.9); text-transform: uppercase; display: none; }
+  #gnbBox > ul > li > ul.gnb_nav > li > ul > li { width: 100%; height: auto; line-height: 5.625rem; background-color: rgba(255, 255, 255, 0.95); text-transform: uppercase; display: none; }
   #gnbBox > ul > li > ul.gnb_nav > li > ul > li:after { content: " "; width: 100%; height: 0; clear: both; display: block; }
   #gnbBox > ul > li > ul.gnb_nav > li > ul > li.showm_list { display: block; }
   #gnbBox > ul > li > ul.gnb_nav > li > ul > li > a { display: block; width: 50%; height: 5.625rem; color: #333333; font-weight: bold; padding: 0 1rem; box-sizing: border-box; float: left; }
@@ -213,7 +213,7 @@
   #gnbBox > ul > li > ul.gnb_nav > li > ul > li > a > span.gnb_down { display: block; float: right; width: 0.813rem; height: 1.25rem; margin-top: 2rem; background-image: url("../img/icon/gnb_down.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #gnbBox > ul > li > ul.gnb_nav > li > ul > li > a > span.gnbS_down { display: block; float: right; width: 0.813rem; height: 1.25rem; margin-top: 2rem; background-image: url("../img/icon/gnbG_down.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; }
   #gnbBox > ul > li > ul.gnb_nav > li > ul > li > ul { float: left; width: 50%; height: auto; }
-  #gnbBox > ul > li > ul.gnb_nav > li > ul > li > ul > li { width: 100%; height: 100%; line-height: 5.625rem; background-color: rgba(255, 255, 255, 0.8); text-transform: uppercase; display: none; }
+  #gnbBox > ul > li > ul.gnb_nav > li > ul > li > ul > li { width: 100%; height: 100%; line-height: 5.625rem; background-color: rgba(255, 255, 255, 0.95); text-transform: uppercase; display: none; }
   #gnbBox > ul > li > ul.gnb_nav > li > ul > li > ul > li.shows_list { display: block; }
   #gnbBox > ul > li > ul.gnb_nav > li > ul > li > ul > li > a { display: block; width: 100%; height: 100%; color: #476401; font-weight: bold; padding: 0 1rem; box-sizing: border-box; }
   #gnbBox > ul > li > ul.gnb_nav > li > ul > li > ul > li > a > span.gnbS_down { display: block; float: right; width: 0.813rem; height: 1.25rem; margin-top: 2rem; background-image: url("../img/icon/gnbG_down.svg"); background-repeat: no-repeat; background-position: center; background-size: contain; } }
